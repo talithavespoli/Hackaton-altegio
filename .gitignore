@@ -1,0 +1,14 @@
+# secrets / local env — never commit real credentials
+.env
+.env.local
+*.key
+*.pem
+
+# n8n / node
+node_modules/
+
+# os / editor
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
